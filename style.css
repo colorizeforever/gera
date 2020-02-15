@@ -1,0 +1,78 @@
+body, h1, h2, h3, h4, p, a {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    height: 100vh;
+    background-color: #eee;
+    background-image: url(https://sun9-55.userapi.com/c852020/v852020503/144520/ipv2tm9YSPY.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.header-title {
+    margin: auto;
+    font-size: 140px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.overlay {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+.content{
+    font-size: 0;
+    width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+}
+.card {
+    display: inline-block;
+    padding: 45px 45px 70px 45px;
+    margin-bottom: 60px;
+    width: 350px;
+    margin-right: 90px;
+    box-shadow: 4px 4px 5px rgba(250,50,50, .4);
+}
+.no-right-margin {
+    margin-right: 0;
+}
+.card-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.card-text {
+    font-size: 16px;
+}
+.card-image {
+    width: 100%;
+    margin-bottom: 25px;
+}
+* {
+    box-sizing: border-box;
+}
+.footer {
+    display: flex;
+    height: 300px;
+    background-color: black;
+}
+.footer-author {
+    margin: auto;
+    font-size: 24px;
+    color: #fff
+}
